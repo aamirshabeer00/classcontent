@@ -57,3 +57,71 @@ How to set the permission on git hub for Push the code from local repo
 6. generate key 
  	open google
  	type ssh key for git hub
+
+
+-----------------------------------------------------------------------
+02nd Dec
+
+1. basic html tags
+         text formatting tags
+         list tag
+         table tag
+         anchor
+         image tag
+         heading tag
+         form tag
+         
+2. css - introduction 
+         how to use css
+         padding 
+         margin
+         border
+         box model
+         div
+         grid layout
+         row & col-12
+3. GIT
+       introduction
+       history
+       how to create local git repo
+       git download and install
+       how to work with git bash - git bash is terminal, where we can execute our command
+       concept git hub
+       how to create account on git hub
+       login and create git repo on remote
+       how to clone remote repo on local repo
+       PUSh and PULL
+       how to create SSH key for git hub
+
+      Question ->  git pull and git fetch
+   
+    git pull -> code movement from remote repo to local repo
+    git fetch -> code movement from remote repo to local repo 
+
+
+    git pull = git fetch + git merge
+
+    branch concept
+
+    .gitignore -> one file for git, so that git can ignore all files which are 
+                 mentioned in this file.
+
+-------------------------------------------------------------
+HTML5 - advance tags
+
+1. audio 
+2. video
+3. time 
+
+
+
+
+Video 
+mp4
+webM
+ogg
+tag name-> <video></video>
+
+
+       
+         
