@@ -1,0 +1,520 @@
+10th Nov
+---------------------------------------------
+1. introduction about subject
+2. Subject flow plan ( topics)
+3. What is wed design and web development
+
+
+15th Nov
+--------------------------------------------
+Application Development Stack
+1. Full Stack 
+     Frontend ( user interface)   HTML CSS JS
+     Backend ( server side programming)    PHP/ JSP/ Python/ Ruby/ peal etc  
+     DB ( where we store the data)   SQL
+2. Mern Stack   ( MongoDB ExpressJS ReactJS NodeJS)
+3. Mean Stack  ( MongoDB ExpressJS AngularJS  NodeJS)
+
+MongoDB -> NoSQL Database  ( Not Only SQL)
+
+SQL and NoSQL
+SQL Structured Query Language ( where we store the data in table(in form row and Col))
+NoSQL Not Only SQL ( where we store the data in form of document (in form of key-value))
+
+I am develping one application using followig technologies
+
+HTML CSS JS PHP MySQL
+
+
+
+
+
+Web Page 
+Mobile page
+Hypertext Document 
+Web Page contains -> web Element -> data   => Design web page using HTML
+Mobile Page -> mobile Element -> data => Design mobile page using Mobile lang
+
+
+
+xyz code - mobile page code 
+
+<html>xyz code </html> web.xyz.com
+
+
+
+HTML 
+
+1. this is one laguage by which we can design the structure/layout of the web page.
+2. it stands for Hypertext markup language
+3. markup language / scripting language / programming language
+    HTML -> Multiple Tags -> 
+4. case insenstive language
+
+
+How to use HTML
+- editor ( notepad++) 
+- translator ( browser -> interpreter)
+
+
+Execution of HTML prog
+Step1: Open editor and type the HTML code
+Step2: save html code -> filename.html / filename.htm
+Step3: right click on saved file -> open with browser
+
+
+Quetion1: Design one web page using HTML, which show the heading as your name on
+          top left corner of page.
+
+HTML Tags:
+1. HTML tag  <html></html>
+2. Head tag    <head></head>
+3. Body tag  <body></body>
+4. Heading tag <h1></h1>------<h6></h6>
+5. title tag  <title></title>
+
+
+Quetion2: Design one web page using HTML, having following data
+          1. Name:( bold)    Anand Srivastava 
+          2. RollNo:(bold)   101
+
+---------------------------------------------------------------
+17-11-2022
+
+self closing tab
+<br>
+</br>
+
+text formatting tags
+bold  -> <b>  </b>
+Italic  -> <i></i>
+Underline -> <u></u>
+Strikethrough  -> <del><del>     <s></s>
+Super script  -> <sup></sup>
+Sub script  ->  <sub></sub>
+
+
+List tag
+
+-> ordered List    <ol></ol>
+     <ol type="a/A/i/I/1"></ol>
+-> unordered List    <ul><li></li></ul>
+     <ul type="circle/disc/square"></ul>
+
+Courses
+  . B.Tech
+  . MBA
+  . BA
+  . BCA
+
+Home Assignement 
+List of Courses
+  1. Under Graduate
+	i.   B.Tech
+	ii.  BBA
+        iii. BA
+        iv.  BCA
+  2. Post Graduate
+         a. M.Tech
+         b. MBBS
+
+
+table tag
+combination of row and col
+
+<table>
+<tr><td></td></tr>
+rowspan  colspan  -> <td>
+</table>
+
+
+anchor tag
+(hyperlink)
+<a href="pathofLink">text</a> hyperlink reference
+
+
+Image 
+<img src="imagePath" atl="" height="" width=""></img>
+
+
+try to desing Login Page with 	Login button, forgot password  
+-----------------------------------------------------------------
+18-11-2022
+
+Form Design using HTML
+
+Form is just like container, it contains form controls.
+Form controls like text field, password field, button, date, radio
+button, check box, dropdown, email field, time field etc....
+
+<form>
+
+<input type="text"></input>
+
+
+</form>
+
+
+1. text field -> text
+2. password field -> password
+3. button -> button/submit/reset
+4. radio -> radio
+5. check box
+5. date -> date
+6. time -> time 
+7. email -> email
+8. number -> number
+
+project
+
+
+Login page -> dashboard( welcome msg...logout....change password)
+User Name
+Password
+Forgot Password | click here to Register
+Login Reset
+
+
+
+Inline Tag and Block Tag
+
+---------------------------------------------------------------
+
+21-11-2022
+
+CSS - cascading style sheet
+
+Design of Web page
+- structuring of weg page  HTML
+- applying the style on page   CSS
+- applying the animation/ dynamic action on page  JS
+
+How to apply CSS on web page?
+
+There three ways to apply the css on web page.
+1. Inline CSS
+2. Internal sheet CSS
+3. External sheet CSS
+
+
+Question:
+Suppose we have one web page, having one heading and one paragraph and one sub heading.
+now apply the following style on page
+1. heading must be in red color and margin from top will be 100px
+2. paragraph will be in blue color
+3. sub heading will be in red color
+
+
+Inline CSS
+Advantage
+- easy to implement
+
+Disadvantages of Inline CSS
+- Code complexity
+- code length
+- code repeat
+
+100kB HTML    50KB CSS   -> 150 KB
+
+
+internal Sheet CSS
+ Advantage
+1. code length will be decrease as compare to inline css
+2. code repeatation will be ignored
+
+Disadvanatge
+code length is complexity
+
+
+External Sheet css
+advantages:
+1. easy to handle
+2. debugging is easy 
+3. css code is seprate
+4. code length is same as html code
+5. page response time will be decrease
+
+diadvatages
+take care of External sheet css
+
+
+----------------------------------------------------------------
+22-11-2022
+
+1. box model in CSS
+      margin padding border
+2. color schemes
+
+
+Box model says every content is sourrounded by border, if we set the border width
+border will be display otherwise not display.
+Margin and padding both are transparent spance, margin is measured from border to outside
+and padding is measured from border to inside or towords content.
+
+
+commenting in CSS
+
+/*   -----   */
+
+
+color schemes
+
+there are three mechanism by which we can set the color on page using CSS
+1. RGB
+2. HEX
+3. HSL
+
+RGB(0-255,0-255,0-255)  
+
+rgb(0,0,0)   -> black
+rgb(255,255,255)  -> white
+
+
+HEX   #6digit
+        #000000    black
+        #00
+        #ffffff   white
+
+
+
+HSL
+   (hue, saturation, lightness)
+360degree view 
+
+     in terms of percentage
+hsl(3,100%,50%)
+
+
+css - selectors
+        id
+        class
+        tag name
+CSS combinators
+  1. descendant selector   space
+  2. child selector   >
+  3. adjacent sibling +
+  4. general sibling ~
+
+
+
+CSS Pseudo-classes
+
+selector:psuudo-class
+{
+property:value;
+}
+-------------------------------------------------------
+
+25th Nov 2022
+
+    
+1.Bootstrap  -  this is CSS framework or CSS library ( where number of classes are 
+    defined for different style.
+
+BootStrap Framework 
+4 files 
+1 css file
+3 js file
+
+
+How we can use the CSS framework - Bootstrap 
+there are two ways
+
+1. download the file from Internet and use in our project
+2. through CDN  ( content delivery network)
+
+google    server - bootstrap.min.css   ( url:  xyz/abc/bootstrap.min.css)
+ttt       server - bootstrap.min.css   ( ulr:  ttt/abc/bootstrap.min.css)
+-----
+-----
+-----
+
+CDN 
+why we prefer CDN
+
+
+
+bootstrap.min.css
+
+text color:
+text-primary : blue
+text-success : green
+
+
+background color:
+bg-primary : blue
+
+
+text alignment
+
+left alignment:   text-left
+right alignment: text-right
+center alignment: text-center
+justify         :  text-justify
+
+
+margin:
+
+div 
+class    m  ( 1-5)
+         mt   ml mr mb
+
+Padding 
+
+class    p
+         pt pl   pr pb
+
+
+container
+1. container 
+2. container-fluid
+
+
+how bootstrap framwrok provide the responsiveness?
+because it follow the GRID layout?
+
+
+What is Grid Layout?
+row
+12 col in each row
+
+----------------------------------------------------------------------
+29th Nov 2022
+GIT -Version Control System
+
+local version System -> database -files -> store the version information
+                      -> crash 
+
+Centralized version system ->
+
+Distributed Version System ->  GIT 
+
+GIT -> Application ( free software based Distributed Version Control System)
+
+
+
+Download -> install -> use
+
+2005 ->GIT
+2002 ->Bitkipper
+
+How we can use GIT
+
+1. download 
+2. install
+3. after installation -> c -> git folder
+
+4. git-> command prompt -> this prompt is called GIT Bash
+
+
+
+1.git
+2.pwd
+
+.git  git folder  -> hidden
+
+first make out project folder as git repository
+
+
+3. git status
+4. git init
+5. 
+
+
+
+First time steps:
+Step1. Download
+Step2. Install
+Step3. open the git bash in out project folder
+Step4. initialize git -> git init
+Step5. git setup  ->  git config --global user.name "Aks"
+                      git config --global user.email "aks@gmail.com"
+
+
+General Commands:
+1. view user detials
+  git config --list
+
+
+2. git status ( view the status of git)
+
+3. untracked files -> 
+   git add fileName
+   git add .
+
+4. stage area -> commit area
+  git commit -m "msg"
+
+5. view log
+   git log
+
+6. view deleted commit from log
+  git log -p -NoOfcommit
+
+7. view statistics og log
+   git log --stat
+
+8. log details in simple
+   git log --pretty=oneline
+   git log --pretty=short
+   git log --pretty=full
+
+9. log filteration based on time
+   git log --since=2.days
+   git log --since=2.weeks
+   git log --since=2.months
+   git log --since=2.years
+    
+10. staged area -> untracked area
+    git restore --staged fileName
+
+11. staged area -> previous commit
+     git checkout -f
+     git checkout --fileName
+
+-----------------------------------------------------------
+30-11-2022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

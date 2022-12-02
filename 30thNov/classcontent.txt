@@ -1,0 +1,59 @@
+30-11-2022
+
+git   -> D V C S  ( Application / software)
+   .git folder ( hidden)
+project Folder -> git repository
+
+
+One project-> 4 team member
+
+
+git -> Application
+git-hub-> GIT applicaiton is hosted on git-hub server
+
+
+git repo -> cloud 
+
+
+PULL -> code movement from remote repo to  local repo
+PUSH -> code movement from locat to remote repo
+
+before work start -> PULL
+after commit -> PUSH
+
+
+https://github.com/anand8355/cu-crc.git 
+
+
+
+-> how we can get the code from existing remote repository on my local repo
+
+you have git hub credential ( login)
+git hub login
+
+you have the URL of existing 
+create a folder in local machine
+and open git bash
+
+git clone URLofExistingRemoteRepo nameofProject
+
+
+-> how we can move our local repo code to Git hub repo
+
+
+class repo -> https://github.com/anand8355/fullstackapp.git
+
+ 
+Error: permission denied -> 
+
+
+How to set the permission on git hub for Push the code from local repo
+
+1. open git hub home page
+2. click on profile icon and click on setting
+3. click on SSH and GPG key
+4. click on new SSH key
+5. enter name of key
+6. generate key 
+ 	open google
+ 	type ssh key for git hub
